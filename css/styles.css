@@ -1,3 +1,21 @@
+nav {
+  height: 100px;
+  background-color: aquamarine;
+}
+
+#first {
+  align-content: center;
+}
+
+.jumbotron {
+  height: 400px;
+  background-color: blueviolet;
+}
+
+.speaker {
+  height: 800px;
+  background-color: lime;
+}
 
 
 
