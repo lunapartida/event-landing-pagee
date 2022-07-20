@@ -17,7 +17,26 @@ nav {
   background-color: lime;
 }
 
+.ticket {
+  height: 400px;
+  background-color: red;
+}
 
+#leftcolumn {
+  background-color: burlywood;
+  height: 700px;
+}
+
+#rightcolumn {
+  background-color: beige;
+  height: 700px;
+
+}
+
+footer {
+  background-color: lightblue;
+  height: 100px;
+}
 
 /* breakpoints */
  /* Small devices (landscape phones, 576px and up) */
