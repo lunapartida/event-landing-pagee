@@ -1,6 +1,6 @@
 nav {
   height: 100px;
-  background-color: aquamarine;
+  background-color: white;
 }
 
 #first {
@@ -8,33 +8,49 @@ nav {
 }
 
 .jumbotron {
-  height: 400px;
-  background-color: blueviolet;
+  height: 500px;
+  background-image: url(/img/image.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .speaker {
   height: 800px;
-  background-color: lime;
+  background-color: white;
 }
 
 .ticket {
   height: 400px;
-  background-color: red;
+  background-color: white;
 }
 
 #leftcolumn {
-  background-color: burlywood;
-  height: 700px;
+  background-color: white;
+  height: 630px;
 }
 
 #rightcolumn {
-  background-color: beige;
-  height: 700px;
+  background-color: white;
+  height: 630px;
 
 }
 
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:50%;
+  position:relative;
+  height:0;
+}
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
 footer {
-  background-color: lightblue;
+  background-color: white;
   height: 100px;
 }
 

@@ -36,10 +36,10 @@
 
       <div class="row">
         <div class="jumbotron text-center">
-          <div class="mt-5">  
+          <div class="my-5">  
             <h1>Clear Statement About Your Event </h1>
           </div>
-          <div class="mt-4">
+          <div class="my-4">
             <p>Secondary header providing additional information</p>
           </div>
           <div class="mt-5">
@@ -53,7 +53,7 @@
           <div class="mt-5">  
             <h1>The Speakers</h1>
           </div>
-          <div class="mt-4">  
+          <div class="my-5">  
             <p>Write a few lines about the event speakers to highlight their expertise in the field. </p>
           </div>
 
@@ -61,33 +61,33 @@
             <div class="card">
               <img src="/img/image.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <h3 class="card-title">Ruby Jennings</h3>
+                <p class="card-text">Product Manager at Moqups. Runner, parent and coffee lover.</p>
+                <p class="card-text"><small class="text-muted">@username</small></p>
               </div>
             </div>
             <div class="card">
               <img src="/img/image.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <h3 class="card-title">Leon Hanson</h3>
+                <p class="card-text">Sales Manager at Moqups. Runner, parent and coffee lover.</p>
+                <p class="card-text"><small class="text-muted">@username</small></p>
               </div>
             </div>
             <div class="card">
               <img src="/img/image.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <h3 class="card-title">Meghan Stone</h3>
+                <p class="card-text">Marketing Specialist at Moqups. Runner, parent and coffee lover.</p>
+                <p class="card-text"><small class="text-muted">@username</small></p>
               </div>
             </div>
             <div class="card">
               <img src="/img/image.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <h3 class="card-title">Willie Perkins</h3>
+                <p class="card-text">UX Engineer at Moqups. Runner, parent and coffee lover.</p>
+                <p class="card-text"><small class="text-muted">@username</small></p>
               </div>
             </div>
           </div>
@@ -108,26 +108,45 @@
           </div>
 
       <div class="row">
-          <div class="col text-center" id="leftcolumn">
-            <div class="my-5">  
-              <h2> The Venue</h2>
-            </div>
-              <div class="my-5">  
-              Our event will be held at the Main Office headquarters a Provost & East Building 145 City Road, London.
+          <div class="col" id="leftcolumn">
+            <div class="container-fluid align-self-center">
+              <div class=" my-5 text-start">
+                <p class="fw-bold"><h2>The Venue</h2></p>
               </div>
+                <div class="my-3 text-start">  
+                  <div class=" text-wrap" style="width: 15rem;">
+                    Our event will be held at the <p class="fw-bold">Main Office headquarters a Provost & East Building 145 City Road, London.</p>
+                  </div>
+
+                </div>
+              <div class="map-responsive">
+                <iframe
+                  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=Eiffel+Tower+Paris+France"
+                  width="100%"
+                  height="100%"
+                  frameborder="0"
+                  style="border: 0"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
           </div>
+
           <div class="col text-center" id="rightcolumn">
             <div class="my-5">
-            <img src="/img/image.jpg" class="card-img-top" height="400px" width="300px" alt="...">
+            <img src="/img/image.jpg" class="card-img-top" height="530px" width="300px" alt="...">
             </div>
           </div>
         </div>
 
         <footer class="row">
-          <div class="col" id="footer">
+          <div class="col text-start ms-2" id="footer">
             <i class="fa-brands fa-twitter"></i>
             <i class="fa-brands fa-instagram"></i>
             <i class="fa-brands fa-facebook-square"></i>
+          </div>
+          <div class="col fs-3 me-4  text-end">
+            &copy; 2019 Moqups
           </div>
         </footer>
 
